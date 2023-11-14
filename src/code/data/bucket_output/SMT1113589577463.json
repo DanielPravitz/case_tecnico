@@ -1,0 +1,72 @@
+{
+    "txt_detl_idt_pedi_pgto": "SMT1113589577463",
+    "cod_idef_clie": "customer-store",
+    "dat_hor_tran": "2023-05-11T13:58:33.181Z",
+    "stat_pgto": "PAID",
+    "stat_pedi": "DELIVERED",
+    "dat_atui": "2023-05-15T18:03:26.260Z",
+    "list_item_pedi": [
+        {
+            "cod_vrne_prod": "MKU-9iSYhmyGMPHpM",
+            "nom_item": "Combo Natura Ekos",
+            "nom_venr": "Top Store",
+            "cod_ofrt_ineo_requ": "64555c61d3a78500119f6518",
+            "vlr_oril": 106.5,
+            "vlr_prod": 59.9,
+            "vlr_prod_ofrt_desc": 0.0,
+            "qtd_item_pedi": 1,
+            "idt_vrne_venr": "4646195",
+            "idt_venr": "8dJAULm6us",
+            "nom_prod_orig": "",
+            "vlr_desc_envo": 0.0,
+            "txt_plae_otmz_url_prod": ""
+        },
+        {
+            "cod_vrne_prod": "MKU-tkv6tbv5AAquh",
+            "nom_item": "Livro - Mindset",
+            "nom_venr": "Magazine Luiza",
+            "cod_ofrt_ineo_requ": "626c239951dd578ff254c226",
+            "vlr_oril": 69.9,
+            "vlr_prod": 44.5,
+            "vlr_prod_ofrt_desc": 0.0,
+            "qtd_item_pedi": 1,
+            "idt_vrne_venr": "222419500_magazineluiza",
+            "idt_venr": "hxL9bHz7OO",
+            "nom_prod_orig": "",
+            "vlr_desc_envo": 0.0,
+            "txt_plae_otmz_url_prod": ""
+        }
+    ],
+    "list_envo": [
+        {
+            "cod_tipo_entg": "PF1c599LF_Zm3",
+            "nom_stat_entg": "DELIVERED",
+            "cod_venr": "8dJAULm6us",
+            "dat_emis_cpvt": "",
+            "objt_des_stat_rtmt": {},
+            "list_item_envo": [
+                {
+                    "cod_prod": "MKU-9iSYhmyGMPHpM",
+                    "cod_prod_venr": "4646195",
+                    "qtd_prod": 1,
+                    "stat_entg": "DELIVERED"
+                }
+            ]
+        },
+        {
+            "cod_tipo_entg": "Egom7deHcoH3J",
+            "nom_stat_entg": "DELIVERED",
+            "cod_venr": "hxL9bHz7OO",
+            "dat_emis_cpvt": "2023-05-12T15:47:53.000Z",
+            "objt_des_stat_rtmt": {},
+            "list_item_envo": [
+                {
+                    "cod_prod": "MKU-tkv6tbv5AAquh",
+                    "cod_prod_venr": "222419500_magazineluiza",
+                    "qtd_prod": 1,
+                    "stat_entg": "DELIVERED"
+                }
+            ]
+        }
+    ]
+}
