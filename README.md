@@ -1,4 +1,4 @@
-# Case Técnico - Pedidos
+# Case - Pedidos
 
 O caso de uso envolve a ingestão de eventos relacionados a pedidos. A cada atualização do pedido um novo evento é gerado no formato JSON, conforme exemplificado abaixo: 
 
