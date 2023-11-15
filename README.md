@@ -163,3 +163,8 @@ Com base neste cenário uma série de requisitos precisam ser respeitados. Em se
    python main.py data/bucket_input data/bucket_output
  ```
   
+**Adaptação do Código para AWS**  
+Tendo em vista que o cenário descrito é ambientado na nuvem AWS seria necessário realizar algumas adaptações para que o código desenvolvido funcionasse neste contexto. A seguir algumas adaptações possíveis de serem realizadas:
+
+- Utilizar a biblioteca boto3 para interagir com os serviços da AWS, especialmente o AWS S3. As funções para leitura, escrita e verificação da existência do arquivo devem ser adaptadas a este contexto. 
+- Caso optasse por utilizar uma função Lambda (AWS Lambda) o ideal seria que ela fosse [iniciada](https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/EventNotifications.html) ao inserir um novo evento no S3. Desta forma, seria possível realizar a leitura deste único arquivo e fazer o ETL necessário. 
